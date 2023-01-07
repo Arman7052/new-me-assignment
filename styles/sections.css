@@ -1,4 +1,3 @@
-
 /* Failure reason section  */
 .failure-reason {
     display: flex;
@@ -18,32 +17,35 @@
 
 .reason-description {
     font-weight: 400;
-font-size: 16px;
-padding-bottom: 16px;
-color: #444343;
+    font-size: 16px;
+    padding-bottom: 16px;
+    color: #444343;
 }
+
 .check-list {
     display: flex;
     padding-top: 16;
 }
+
 .tick {
     padding-top: 1px;
     padding-right: 10px;
 }
+
 .cause {
     font-weight: 400;
-font-size: 16px;
-color: #444343;
+    font-size: 16px;
+    color: #444343;
 }
 
-/* My Plan section  */ 
+/* My Plan section  */
 .plan-title {
     text-align: center;
     padding-top: 130PX;
     padding-bottom: 50px;
     font-weight: 700;
-font-size: 40px;
-color: #151414;
+    font-size: 40px;
+    color: #151414;
 }
 
 .plan-list {
@@ -54,3 +56,38 @@ color: #151414;
     text-align: center;
 
 }
+
+/* Gradient and image bland  */
+
+.bland {
+    background-image: url(../images/watch.png),
+    linear-gradient(to right, #0983e9, white);
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+  min-height: 35vh;
+  position: relative;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+    
+}
+.bland-image {
+    position: absolute;
+  padding-top:  10px;
+  left: 50px;
+  }
+.bland-image h3 {
+    font-weight: 700;
+
+    font-size: 40px;
+  
+    color: #ffff;
+  
+    width: 449px;
+  
+    padding-bottom: 24px;
+  }
+  
+  

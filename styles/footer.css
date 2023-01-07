@@ -6,8 +6,7 @@
     
 }
 h1 {
-    color: aliceblue;
-    font-weight: 700;
+font-weight: 700;
 font-size: 45px;
 color: #F8F8F8;
 
@@ -42,9 +41,7 @@ background: #005FAC;
 border-radius: 5px;
 }
 .email input{
-    
- 
-  border:;
+
   height: 48px;
   background: #151414;
   border-radius: 5px 0px 0px 5px;
