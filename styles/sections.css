@@ -1,0 +1,56 @@
+
+/* Failure reason section  */
+.failure-reason {
+    display: flex;
+    gap: 90px;
+    padding-top: 130px;
+    padding-left: 205px;
+    padding-right: 320px;
+}
+
+.reason-title {
+    padding-top: 150px;
+    padding-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.reason-description {
+    font-weight: 400;
+font-size: 16px;
+padding-bottom: 16px;
+color: #444343;
+}
+.check-list {
+    display: flex;
+    padding-top: 16;
+}
+.tick {
+    padding-top: 1px;
+    padding-right: 10px;
+}
+.cause {
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+}
+
+/* My Plan section  */ 
+.plan-title {
+    text-align: center;
+    padding-top: 130PX;
+    padding-bottom: 50px;
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+}
+
+.plan-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 230px;
+    padding-right: 230px;
+    text-align: center;
+
+}
